@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dock center</title>
+    <style>
+     
+        .wrap-box{
+         
+            background-color:green;
+            width:600px;
+            height:400px;
+            position:relative; 
+         
+        }
+         
+        .inner-box{
+         
+            position:absolute;
+            background-color:orange;
+            width:200px;
+            height:300px;
+            top: 50%;
+            left: 50%;
+            right: auto;
+            bottom: auto;
+            /*half of element width*/
+            margin-left: -100px;
+            /*half of element height*/
+            margin-top: -150px; 
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="wrap-box">
+        <div class="inner-box"></div>
+    </div>
+</body>
+</html>
